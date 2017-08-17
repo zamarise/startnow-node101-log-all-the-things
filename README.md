@@ -7,7 +7,7 @@ This was my seventh project at Origin Code Academy. This logger was created usin
 
 ## Approach
 
-In this project I built my own custom logger that logs some information about each request it recieves. I also expose an endpoint on the server so it will be easy for anyone to retieve the latest log data from the web.
+In this project I built my own custom logger that logs some information about each request it receives. I also expose an endpoint on the server so it will be easy for anyone to retrieve the latest log data from the web.
 
 ## Installation
 
