@@ -13,8 +13,9 @@ app.use((req1, res1, next) => {
   var status = '200';
   var date = new Date();
   var newDate = date.toISOString();
-  var logData = realUserAgent + ',' + newDate + ',' + method + ',' + resource + ',' + "HTTP/" + version + ',' + status + '\n';
-  fs.appendFile('log.csv', logData, (err) => {
+  var logData =
+    realUserAgent + ',' + newDate + ',' + method + ',' + resource + ',' + 'HTTP/' + version + ',' + status + '\n';
+  fs.appendFile('log.csv', logData, err => {
     if (err) throw err;
     // console.log('The data was logged to the file!');
   });
